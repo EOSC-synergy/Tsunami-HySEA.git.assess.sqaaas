@@ -1,0 +1,58 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: release/2.1.1
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/edanya-uma/Tsunami-HySEA:
+      branch: main
+      repo: https://github.com/edanya-uma/Tsunami-HySEA.git
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/edanya-uma/Tsunami-HySEA git:
+        commands:
+        - /usr/bin/env sh .sqa/script.gimpy-lime-impala.sh
+        container: qc.acc_gimpy-gamboge-lemming
+  QC.Doc:
+    repos:
+      github.com/edanya-uma/Tsunami-HySEA find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.flabby-teal-horse.sh
+        container: qc.doc_skanky-brown-mastiff
+      github.com/edanya-uma/Tsunami-HySEA git:
+        commands:
+        - /usr/bin/env sh .sqa/script.hazy-mustard-owl.sh
+        container: qc.doc_flaky-fuchsia-civet
+      github.com/edanya-uma/Tsunami-HySEA markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.scaly-blue-binturong.sh
+        container: qc.doc_snazzy-xanthic-cat
+  QC.Lic:
+    repos:
+      github.com/edanya-uma/Tsunami-HySEA licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.foggy-grey-chihuahua.sh
+        container: qc.lic_thirsty-tan-impala
+  QC.Met:
+    repos:
+      github.com/edanya-uma/Tsunami-HySEA cff-converter-python:
+        commands:
+        - /usr/bin/env sh .sqa/script.clammy-firebrick-opossum.sh
+        container: qc.met_cozy-dandelion-squirt
+  QC.Sty:
+    repos:
+      github.com/edanya-uma/Tsunami-HySEA oclint:
+        commands:
+        - /usr/bin/env sh .sqa/script.thirsty-lemon-havanese.sh
+        container: qc.sty_queasy-tangerine-frigatebird
+  QC.Ver:
+    repos:
+      github.com/edanya-uma/Tsunami-HySEA get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.slaphappy-xanthic-husky.sh
+        container: qc.ver_ready-chartreuse-leopard
+timeout: 5400
