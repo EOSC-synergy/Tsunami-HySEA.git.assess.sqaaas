@@ -1620,23 +1620,23 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "6A52NZbRTdmzSw5kXV-NKQ",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/6A52NZbRTdmzSw5kXV-NKQ",
-                "createdAt": "2024-11-20T09:09:36.880298845Z",
+                "entityId": "YhOMV3P8QOSySLSf0DQBOw",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/YhOMV3P8QOSySLSf0DQBOw",
+                "createdAt": "2024-11-20T09:10:12.117498060Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "IDUsZJpNQPuiJpPwmJ8iJw",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/6A52NZbRTdmzSw5kXV-NKQ/image",
+                "image": "https://api.eu.badgr.io/public/assertions/YhOMV3P8QOSySLSf0DQBOw/image",
                 "recipient": {
-                    "identity": "sha256$f87f5ee52a714353d2daa39d4fafe84cc62cef802b84a576a599a95fee330ef7",
+                    "identity": "sha256$1fea5d74aa6d4c0146021b644c0cbc39d676cd2cb9bd41911cf6880e22844b7e",
                     "hashed": true,
                     "type": "url",
-                    "salt": "94XzEL9ELZhGsefN",
+                    "salt": "XGiOyW5ytJLguISV",
                     "plaintextIdentity": "https://github.com/edanya-uma/Tsunami-HySEA.git"
                 },
-                "issuedOn": "2024-11-20T09:09:36.880303232Z",
+                "issuedOn": "2024-11-20T09:10:12.117502848Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/edanya-uma/Tsunami-HySEA.git (commit: 916ef609f7e023087b238627be4def740bab4f96, branch/tag: main)",
                 "evidence": [
                     {
@@ -1654,7 +1654,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/6A52NZbRTdmzSw5kXV-NKQ"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/YhOMV3P8QOSySLSf0DQBOw"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw"
@@ -1666,10 +1666,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-6A52NZbRTdmzSw5kXV-NKQ.png"
+                "imagePath": "uploads/badges/assertion-YhOMV3P8QOSySLSf0DQBOw.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/6A52NZbRTdmzSw5kXV-NKQ?identity__url=https%3A//github.com/EOSC-synergy/Tsunami-HySEA.git.assess.sqaaas/commit/a1149d9320c898d993e20218fd4683f6fb381e76\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/6A52NZbRTdmzSw5kXV-NKQ/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2F6A52NZbRTdmzSw5kXV-NKQ?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2FTsunami-HySEA.git.assess.sqaaas%2Fcommit%2Fa1149d9320c898d993e20218fd4683f6fb381e76&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2FTsunami-HySEA.git.assess.sqaaas%2Fcommit%2Fa1149d9320c898d993e20218fd4683f6fb381e76"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/YhOMV3P8QOSySLSf0DQBOw?identity__url=https%3A//github.com/EOSC-synergy/Tsunami-HySEA.git.assess.sqaaas/commit/a1149d9320c898d993e20218fd4683f6fb381e76\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/YhOMV3P8QOSySLSf0DQBOw/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FYhOMV3P8QOSySLSf0DQBOw?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2FTsunami-HySEA.git.assess.sqaaas%2Fcommit%2Fa1149d9320c898d993e20218fd4683f6fb381e76&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2FTsunami-HySEA.git.assess.sqaaas%2Fcommit%2Fa1149d9320c898d993e20218fd4683f6fb381e76"
         }
     }
 }
