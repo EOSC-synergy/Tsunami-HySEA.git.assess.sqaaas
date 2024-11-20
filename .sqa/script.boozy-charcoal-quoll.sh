@@ -5,5 +5,5 @@
 
 (
 cd github.com/edanya-uma/Tsunami-HySEA &&
-    licensee detect . --confidence 60 --json
+    git rev-parse --is-inside-work-tree 
 )

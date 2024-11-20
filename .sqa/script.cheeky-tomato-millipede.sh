@@ -5,5 +5,5 @@
 
 (
 cd github.com/edanya-uma/Tsunami-HySEA &&
-    cffconvert --validate
+    mdl --json  .
 )

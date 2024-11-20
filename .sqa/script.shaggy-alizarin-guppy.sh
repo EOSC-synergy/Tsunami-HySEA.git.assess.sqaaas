@@ -5,5 +5,5 @@
 
 (
 cd github.com/edanya-uma/Tsunami-HySEA &&
-    mdl --json .
+    git rev-parse --is-inside-work-tree 
 )
